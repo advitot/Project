@@ -1,0 +1,49 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+// Initialize the Array
+var emptyArray: [Int] = []
+
+
+for k in 1...300
+{
+    if(k % 7 == 0 )
+    {
+        // Append array
+        emptyArray.append(k)
+       
+    }
+}
+
+// Reversing array
+var reverseArray = []
+reverseArray = emptyArray.reverse()
+
+print(reverseArray)
+
+print(reverseArray.count)
+
+
+
+// Initialize the Array
+var emptyNewArray: [Int] = []
+
+
+for k in 1...500
+{
+    if(k % 15 == 0 )
+    {
+        // Append array
+        emptyNewArray.append(k)
+        
+    }
+}
+
+// Reversing array
+var reverseNewArray = []
+reverseNewArray = emptyNewArray.reverse()
+
+print(reverseNewArray)
+
+
